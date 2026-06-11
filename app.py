@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify(mensagem="Bem-vindo à Pizzaria Express!")
+    return jsonify(mensagem="Bem-vindo! Pizzaria Express a melhor pizza da cidade!")
 
 @app.route('/status')
 def status():
